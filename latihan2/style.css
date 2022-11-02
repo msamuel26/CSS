@@ -1,0 +1,61 @@
+h1 {
+	font-family: arial, verdana, sans-serif;
+	font-size: 100px;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+p {
+	font-family: georgia, serif;
+	line-height: 30px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+/* Note: 
+
+Hari ini mempelajari tentang font styling (memberi style pada font).
+Berikut adalah berbagai properti font pada CSS, yaitu:
+
+1. Font-family: mengatur jenis font yang akan digunakan
+2. Font-size: mengatur ukuran font
+3. Font-weight: mengatur ketebalan font
+4. Font-variant: mengubah font menjadi small caps
+5. Font-style: mengubah font menjadi bercetak miring
+6. Line-height: mengatur jarak/spasi antar baris teks
+
+
+
+h1 { font-family: arial, verdana, sans-serif; }
+
+Tujuan diberikannya lebih dari 1 value untuk properti font-family, yaitu
+jika browser meng-support font pertama (arial), maka arial akan digunakan.
+Dan jika browser tidak meng-support font pertama (arial), maka akan mencoba font
+berikutnya (verdana), dan jika browser masih tidak meng-support font "verdana",
+maka CSS akan memilihkan font dengan kategori/generic family "sans-serif" yang 
+disupport oleh browser.
+
+
+
+h1 { font-variant: small-caps; }
+
+Salah satu value dari font-variant, yaitu small-caps.
+Dalam font small-caps, semua huruf kecil diubah menjadi huruf besar. Namun, huruf 
+besar yang telah diubah/dikonversi dari huruf kecil muncul dalam ukuran font yang
+lebih kecil daripada huruf besar asli dalam teks.
+
+
+
+Dalam CSS, terdapat shorthand/singkatan font CSS,
+yaitu:
+
+body {
+	font: italic normal bold 16px/18px helvetica, arial, sans-serif;
+}
+
+Urutan properti (yang menjadi value): font-style (italic), font-variant (normal), 
+font-weight (bold), font-size (16px), line-height (18px), 
+font-family (helvetica, arial, sans-serif).
+
+*/
