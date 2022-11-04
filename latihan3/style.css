@@ -1,0 +1,58 @@
+h1 {
+	font-size: 90px;
+	color: rgb(115, 80, 212);
+	text-decoration: underline;
+}
+
+h3 {
+	text-indent: 50px;
+}
+
+p {
+	text-align: justify;
+	text-transform: capitalize;
+}
+
+a { text-decoration: none; }
+
+/* Note:
+
+Hari ini mempelajari text styling (memberi style pada text).
+Berikut adalah berbagai properti text pada CSS, yaitu:
+
+1. Color: memberi warna pada tulisan
+2. Text-align: mengatur perataan teks dengan arah horizontal
+3. Text-indent: memberi indentasi (menjorok ke dalam) pada paragraf/teks
+4. Text-decoration: mengatur dekorasi pada teks
+5. Text-transform: mengubah jenis huruf menjadi huruf besar, kecil, atau kapital
+6. Letter-spacing: mengatur spasi antar huruf (menggunakan px)
+7. Word-spacing: mengatur spasi antar kata (menggunakan px)
+
+
+Color, terdapat 3 value: nama warna, hexadecimal, RGB.
+Contoh: 
+- Nama warna: red, royalblue, skyblue, gold, dsb
+- Hexadecimal: #abcabc, #20b2aa, #4169e1, dsb
+- RGB: rgb(32, 178, 170), rgb(65, 105, 225), dsb
+
+
+Text-align, terdapat 4 value: left, right, center, justify.
+- Left: rata kiri
+- Right: rata kanan
+- Center: rata tengah
+- Justify: rata kiri kanan
+
+
+Text-decoration, terdapat 4 value: none, underline, overline, line-through.
+- Underline: garis berada di bawah tulisan
+- Overline: garis berada di atas tulisan 
+- Line-trough: garis melewati tulisan (seperti mencoret tulisan)
+
+
+Text-transform, terdapat 4 value: none, lowercase, uppercase, capitalize.
+- Lowercase: mengubah semua huruf pada elemen menjadi kecil
+- Uppercase: mengubah semua huruf pada elemen menjadi besar
+- Capitalize: mengubah huruf pertama dari setiap kata menjadi besar 
+ 
+
+*/
