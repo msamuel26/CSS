@@ -1,0 +1,65 @@
+body {
+	background-color: white;
+	background-image: url(gambar/tree.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+/*	Note:	
+
+Hari ini mempelajari background pada CSS.
+Berikut adalah berbagai properti background pada CSS, yaitu:
+
+1. Background-color: mengatur warna pada background
+2. Background-image: mengatur gambar yang akan digunakan pada background
+3. Background-position: mengatur posisi gambar pada background
+4. Background-repeat: mengatur jenis pengulangan gambar pada background
+
+
+Background-color bisa berisi value berupa: nama warna, hexadecimal, atau RGB.
+- Nama warna: white, blue, gold, dsb
+- Hexadecimal: #abcabc, #20b2aa, #4169e1, dsb
+- RGB: rgb(32, 178, 170), rgb(65, 105, 225), dsb
+
+
+Background-image berisi value: url(*nama file).
+Secara default, gambar background akan selalu diulang terhadap sumbu x dan terhadap
+sumbu y.
+Contohnya yaitu:
+- Background-image: url(gambar/vert_gradient.jpg);
+- Background-image: url(gambar/horiz_gradient.jpg);
+  dsb
+
+
+Background-repeat, terdapat beberapa value: repeat, repeat-x, repeat-y, no-repeat.
+- Repeat: gambar akan diulang terhadap sumbu x (horizontal) dan sumbu y (vertikal).
+		  Ini default
+- Repeat-x: gambar background akan diulang terhadap sumbu x (dari kiri ke kanan atau
+            horizontal)
+- Repeat-y: gambar background akan diulang terhadap sumbu y (dari atas ke bawah atau
+			vertikal)
+- No-repeat: gambar background tidak diulang, yang berarti gambar hanya akan ditampilkan
+			 sekali
+
+
+Bila menggunakan properti "background-repeat" dengan value "no-repeat", maka kita memiliki
+akses ke properti "background-position".
+Berikut berbagai value pada "background-position",
+yaitu:
+- Left, center, right, top, center, bottom, (x% y%), (x-pos y-pos)
+- Kombinasi dari value di atas: top left, top center, top right, center left, center center,
+								center right, bottom left, bottom center, bottom right
+
+
+Dalam CSS, terdapat shorthand/singkatan background pada CSS.
+yaitu:
+
+body {
+	background: lightblue url(gambar/tree.png) top center no-repeat;
+}
+
+Urutan properti (yang menjadi value): color (lightblue), image (url(gambar/tree.png)), 
+									  position (top center), repeat (no-repeat)
+Reminder: urutannya bisa ditukar
+
+*/
