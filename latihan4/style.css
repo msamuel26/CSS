@@ -33,13 +33,13 @@ Contohnya yaitu:
 
 Background-repeat, terdapat beberapa value: repeat, repeat-x, repeat-y, no-repeat.
 - Repeat: gambar akan diulang terhadap sumbu x (horizontal) dan sumbu y (vertikal).
-		  Ini default
+  Ini default
 - Repeat-x: gambar background akan diulang terhadap sumbu x (dari kiri ke kanan atau
-            horizontal)
+  horizontal)
 - Repeat-y: gambar background akan diulang terhadap sumbu y (dari atas ke bawah atau
-			vertikal)
+  vertikal)
 - No-repeat: gambar background tidak diulang, yang berarti gambar hanya akan ditampilkan
-			 sekali
+  sekali
 
 
 Bila menggunakan properti "background-repeat" dengan value "no-repeat", maka kita memiliki
@@ -48,7 +48,8 @@ Berikut berbagai value pada "background-position",
 yaitu:
 - Left, center, right, top, center, bottom, (x% y%), (x-pos y-pos)
 - Kombinasi dari value di atas: top left, top center, top right, center left, center center,
-								center right, bottom left, bottom center, bottom right
+  center right, bottom left, bottom center, bottom right
+
 
 
 Dalam CSS, terdapat shorthand/singkatan background pada CSS.
@@ -59,7 +60,8 @@ body {
 }
 
 Urutan properti (yang menjadi value): color (lightblue), image (url(gambar/tree.png)), 
-									  position (top center), repeat (no-repeat)
+position (top center), repeat (no-repeat)
+
 Reminder: urutannya bisa ditukar
 
 */
