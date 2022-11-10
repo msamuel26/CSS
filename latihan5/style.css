@@ -1,0 +1,75 @@
+body {
+	font-family: arial;
+}
+
+/*	Penggunaan 2+ buah elemen yang ingin diberikan style yang sama, tidak perlu
+	diketik satu per satu, lakukan grouping dengan menggunakan operator koma (",")  */
+
+h1, h2 {
+	color: green;
+}
+
+
+/*	Memberi warna tag <a> yang berada di dalam tag <ul> (menggunakan operator spasi), 
+	dibaca dari kanan:
+	(tag <a> yang ada di dalam <li> yang ada di dalam <ul>) diubah warna menjadi orange  */
+
+ul li a {
+	color: orange;
+}
+
+/*	Memberi warna tag <a> yang berada di dalam tag <ol> (menggunakan operator spasi), 
+	dibaca dari kanan:
+	(tag <a> yang ada di dalam <li> yang ada di dalam <ol>) diubah warna menjadi merah  */
+
+ol li a {
+	color: red;
+}
+
+
+/*	Memberi warna yang berbeda pada 2 paragraf (yang memakai id dan class) dengan isi 
+	yang sama,
+	dengan menggunakan selector "#" (untuk id) dan selector "." (untuk class)  */
+
+
+/*	Kode dibawah berarti: semua elemen HTML yang memiliki id dengan nama "p1" tolong 
+	diubah warna menjadi #c300ff (kategori ungu)  */
+
+#p1 {
+	color: #c300ff;
+}
+
+
+/*	Kode dibawah berarti: semua elemen HTML yang memiliki class dengan nama "p2" tolong
+	diubah warna menjadi biru  */
+
+.p2 {
+	color: blue;
+}
+
+
+/*	Kode dibawah berarti: semua elemen HTML yang memiliki class dengan nama yang berisi/mengandung
+	string "cetak-tebal" tolong diubah ketebalannya menjadi bold */
+
+.cetak-tebal {
+	font-weight: bold;
+}
+
+
+/*	Kode dibawah berarti: semua elemen paragraf (<p>) pada HTML yang memiliki class dengan nama
+	"cetak-tebal" tolong diubah ukuran font nya menjadi 20 piksel (20px)  */
+
+p.cetak-tebal {
+	font-size: 20px;
+}
+
+
+/*	Note:
+
+Hari ini mempelajari basic selectors (selector dasar).
+Berikut adalah macam-macam selector dasar, yaitu:
+1. Elemen HTML
+2. ID
+3. Class
+
+*/
