@@ -1,0 +1,70 @@
+.hello:link {
+	color: orange;
+}
+
+.hello:hover {
+	color: green;
+	font-family: arial;
+	font-size: 20px;
+}
+
+.hello:active {
+	font-style: italic;
+}
+
+.hello:visited {
+	color: red;
+}
+
+/* (3n+2) berarti memberikan style pada elemen ke-2 dilanjut dengan elemen pada kelipatan 3 start dari 2*/
+li:nth-child(3n+2) a {
+	color: green;
+}
+
+li:nth-child(3n+2) a:hover {
+	color: red;
+}
+
+p:first-of-type {
+	color: red;
+}
+
+p:last-of-type {
+	color: blue;
+}
+
+/* Jika parameter pada nth-child terdapat minus '-', contoh (4n-1).
+   Maka (4n-1) berarti memberikan style pada elemen ke-3 (4 kurangi 1), dilanjut dengan elemen 
+   pada kelipatan 4 start dari 3*/
+   
+
+/*	Note:	
+
+Hari ini mempelajari tentang pseudo class.
+
+Fungsi dari pseudo class yaitu menambahkan style pada selector (tag), tapi hanya ketika selector 
+tersebut memenuhi/bertemu dengan persyaratan/kondisi tertentu.
+
+Ada 2 jenis pseudo class, yaitu pseudo class yang berhubungan dengan link dan yang berhubungan 
+dengan posisi elemen.
+
+1. Pseudo class (berhubungan dengan link), terdapat 4 yaitu:
+	a. :link, yaitu style default pada sebuah link (a yang memiliki href)
+	b. :hover, yaitu style ketika kursor mouse kita arahkan pada sebuah link
+	c. :active, yaitu style ketika sebuah link di-klik (keadaan aktif)
+	d. :visited, yaitu style ketika sebuah link sudah pernah dikunjungi sebelumnya
+
+2. Pseudo class (berhubungan dengan posisi elemen), terdapat 5 yaitu:
+	a. :first-child, yaitu style pada elemen pertama dari sebuah parent (elemen pembungkusnya)
+	b. :last-child, yaitu style pada elemen terakhir dari sebuah parent (elemen pembungkusnya)
+	c. :nth-child(n), yaitu style pada elemen ke-n dari sebuah parent (elemen pembungkusnya)
+		   - (*berupa angka), berarti urutan ke berapa (contoh: 1, 5, 7)
+		   - (4n), berarti kelipatan berapa (contoh: 4n --> kelipatan 4, dsb)
+		   - (*pola), contoh: (3n-2), (4n+3), dsb
+		   - (even), berarti kelipatan angka genap
+		   - (odd), berarti kelipatan angka ganjil
+
+	d. :first-of-type, yaitu style pada elemen pertama dari sebuah jenis/tipe tag
+	e. :last-of-type, yaitu style pada elemen terakhir dari sebuah jenis/tipe tag
+
+*/
