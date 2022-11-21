@@ -1,0 +1,23 @@
+/* Jika tidak diberi keyword "inherit" ("pemaksaan" pewarisan), maka warna dari <a> tetap pada
+   defaultnya yaitu biru, dikarenakan elemen <a> tidak mewarisi nilai dari properti color. */
+
+body {
+	font-family: arial;
+	color: red;
+}
+
+
+/* Supaya elemen <a> ingin mewarisi nilai dari properti tersebut (color), harus diberi properti
+   color dengan value "inherit" yang berarti akan mewarisi properti apapun yang diberikan oleh 
+   parent saya (pada contoh disini, parentnya yaitu "body") */
+
+a { color: inherit; }
+
+
+
+/*	Note:
+
+Hari ini mempelajari tentang inheritance (pewarisan) pada CSS.
+
+Tidak semua properti pada CSS dapat diwariskan (valuenya), hanya properti tertentu yang diwariskan.
+
