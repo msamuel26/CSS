@@ -20,7 +20,7 @@ a:hover {
 }
 
 /* Pada kedua kode dibawah ini, "ul#sarapan li" memiliki skor 0102 sedangkan ".favorit" hanya
-   memiliki skor 0010, maka seluruh <li> dalam ul> yang memiliki id "sarapan" akan berwarna
+   memiliki skor 0010, maka seluruh <li> dalam <ul> yang memiliki id "sarapan" akan berwarna
    hijau (yang dipilih yaitu "ul#sarapan li") */
 ul#sarapan li {
 	color: green;
