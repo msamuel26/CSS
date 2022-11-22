@@ -1,0 +1,31 @@
+/* Pada kedua kode dibawah ini, yang dipilih yaitu green karena <h1> yang kedua akan menimpa
+   <h1> yang pertama */
+h1 { color: red; }
+
+h1 { color: green; }
+
+
+/* Pada kedua kode dibawah ini, #p1 memiliki skor 0100, sedangkan <p> hanya memiliki skor 0001, 
+   maka yang dipilih yaitu red karena #p1 (id "p1") lebih spesifik atau lebih berat daripada 
+   <p> (elemen) */
+#p1 { color: red; }
+
+p { color: green; }
+
+
+/* Cara menghitung nilai specificity: kunjungi https://specificity.keegan.st/ */
+a:hover {
+	font-size: 20px;
+	font-family: verdana;
+}
+
+/* Pada kedua kode dibawah ini, "ul#sarapan li" memiliki skor 0102 sedangkan ".favorit" hanya
+   memiliki skor 0010, maka seluruh <li> dalam ul> yang memiliki id "sarapan" akan berwarna
+   hijau (yang dipilih yaitu "ul#sarapan li") */
+ul#sarapan li {
+	color: green;
+}
+
+.favorit {
+	color: red;
+}
